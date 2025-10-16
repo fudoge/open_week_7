@@ -7,9 +7,12 @@ git tag <태그이름>
 
 ## Removing Tags
 ```bash
-git tag v1
-git tag v2
-git tag v3
+git tag -d v1
+git tag -d v2
+git tag -d v3
+
+## 또는 한번에 지우기..
+git tag -d v1 v2 v3
 ```
 
 ## Tagging later
